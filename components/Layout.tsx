@@ -29,6 +29,10 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
           <a>About</a>
         </Link>{" "}
         |{" "}
+        <Link href="/list">
+          <a>List</a>
+        </Link>{" "}
+        |{" "}
         <Link href="/todo">
           <a>Todo</a>
         </Link>{" "}
